@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block body%}
+
+<div class="form-group pt-3">
+  <form action="/conteo">
+
+    <h2>Conteo de datos.</h2>
+  
+    <p class="form-control">Entran: {{CountEntra}}</p>
+    <p class="form-control">Salen: {{CountSale}}</p>
+    <p class="form-control">Efectivo: {{CountEfectivo}}</p>
+    <p class="form-control">Tarjeta: {{CountTarjeta}}</p><br>
+    <p class="form-control">TOTAL: {{CountTotal}}</p>
+  
+  </form>  
+</div>
+
+<div class="form-group pt-3">
+  <form action="/">
+    <button type="submit" class="btn btn-primary btn-block">
+        Regresar
+    </button>   
+  </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,6 @@
+/* Usamos bootstrap (diseño general), bootswatch(fuentes o tipo de letra)
+ y uiGradients (Colores) ó --> */
+
+body {
+    background-color: rgb(6, 15, 116);
+}
